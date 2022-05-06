@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>S-admin</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="addposts.css">
+</head>
+<body>
+      <div class="header">
+            <div class="header">
+                  <div class="header_menu">
+                        <div class="logo">
+                              <img src="logo.jpeg" alt="logo">
+                        </div>
+                        <div class="header_text">
+                              <h2>Serge ISHIMWE</h2>
+                        </div>
+                  </div>
+            </div>
+            <div class="container_corrrect">
+                  <div class="main_column1">
+                        <div class="main_image">
+                              <img src="sergeP.JPG" alt="">
+                        </div>
+                        <div class="main_title">
+                              <div class="main_text">
+                                    <ul>
+                                          <li>
+                                                <a href=""><span></span><span>posts <span><i class="fa-solid fa-circle-chevron-down"></i></span></a>
+                                                <ul>
+                                                      <li>
+                                                            <a href="../manager post/managerposts.html"><span></span><span>add posts</span></a>
+                                                       </li>
+                                                       <li>
+                                                             <a href="/admin-page/dashboard/dashboard.html"><span></span><span>remove posts</span></a>
+                                                       </li>
+                                                       <li>
+                                                            <a href="/admin-page/dashboard/dashboard.html"><span></span><span>updates post</span></a>
+                                                       </li>
+                                                </ul>
+                                          </li>
+                                          <li>
+                                                  <a href=""><span></span><span>views <i class="fa-solid fa-circle-chevron-down"></i></span></a>
+                                                  <ul>
+                                                       <li>
+                                                             <a href="/admin-page/dashboard/dashboard.html"><span></span><i class="fa-solid fa-envelope-open-text"></i><span>message</span></a>
+                                                        </li>
+                                                        <li>
+                                                             <a href=""><span></span><i class="fa-solid fa-comment"></i><span>comment</span></a>
+                                                        </li>
+                                                 </ul>
+                                           </li>
+                                           <li>
+                                                 <a href="/landing_page/landing.html"><span><i class="fa-solid fa-arrow-right-from-bracket"></i></span><span>logout</span></a>
+                                           </li>
+                                    </ul>
+                              </div>
+                        </div>
+                           </div>
+                        <div class="main0">
+                              <div class="column1">
+                                   <a href="../manager post/managerposts.html" class="btn">add posts</a>
+                                   <a href="" class="btn">manager posts</a>
+                              </div>
+                              <div class="content1">
+                                    <h2 class="page-title">manager posts</h2>
+                                    <table>
+                                          <tr>
+                                                <td>
+                                                     <form autocomplete="off" onsubmit="onFormSubmit()">
+                                                            <div>
+                                                                  <label for="SN">SN</label>
+                                                                  <input type="number" name="number" id="SN" required>
+                                                            </div>
+                                                            <div>
+                                                                 <label for="title">Title</label>
+                                                                  <input type="text" name="product" id="Title" required>
+                                                             </div>
+                                                             <div>
+                                                                  <label for="author">Author</label>
+                                                                  <input type="text" name="author" id="Author" required>
+                                                              </div>
+                                                              <div class="form_action--button">
+                                                                    <input type="submit" value="Submit">
+                                                                    <input type="reset" value="Reset">
+                                                              </div>
+                                                      </form>
+                                                      <td>
+                                                            <table class="list" id="storelist">
+                                                                  <thead>
+                                                                        <tr>
+                                                                                    <th>SN</th>
+                                                                                    <th>title</th>
+                                                                                    <th>author</th>
+                                                                              
+                                                                        </tr>
+                                                                  </thead>
+                                                                  <tbody>
+                                 
+                                                                  </tbody>
+                                                            </table>
+                                                      </td>
+                                                </td>
+                                          </tr>  
+                                      </table> 
+                              </div>
+                        </div>
+            </div>
+            </div>
+            <script type="text/javascript" src="./addposts.js"></script>-->
+</body>
+</html>
