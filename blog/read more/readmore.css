@@ -49,122 +49,13 @@ list-style: none;
       transition: .5s;
       padding: 5px;
 }
-.blog
 
-{
-      padding: 5rem 0 2.5rem 0;
-      margin: rem;
-      background: #1c2227;
-}
-.title h2
-{
-      text-align: center;
-      justify-content: center;
-      font-size: 5rem;
-      color: rgb(51, 45, 45);
-      align-items: center;
-      position: relative;
-}
-/* .title>div h2
-{
 
-      position: absolute;
-      top: 150px;
-      left: 550px;
-} */
-.title h2{
-      color: rgb(211, 174, 174);
-      text-transform: capitalize;
-}
-.blog>.text 
-{
-      width: 70%;
-      margin: 1.5rem auto;
-      text-align: center;
-      color: #fff;
-}
-.blog .item 
-{
-      margin: 1rem 2rem;
-      padding: 1.5rem;
-      background: #fff;
-      border-radius: 15px;
-      overflow: hidden;
-}
-.blog .item .item_img
-{
-      /* border-bottom: 8px solid #Bd960b; */
-      overflow: hidden;
-      max-width: 100%;
-      max-height: 100;
-}
-.blog .item .item_img img
-{
-      transition: var(--transition);
-      width: 600px;
-      height: 250px;
-}
-.blog .item .item_img:hover
-{
-      transform: scale(1.2);
-}
-.blog .item .item-content
-{
-      padding: 1.5rem;
-}
-.blog .item .item-content span
-{
-      color: #Bd960b;
-      text-transform: uppercase;
-}
-.blog .item .item-content span .fa
-{
-      font-size: 0.85rem;
-}
-.blog .item .item-content h2
-{
-      font-weight: 600;
-      font-size: 1.2rem;
-      margin-bottom: 1rem;
-      margin-top: 2.5rem;
-      text-transform: uppercase;
-      color: #fb8500;
-}
-.blog .pagination
-{
-      margin: 3rem 0 0.5rem 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-}
-.blog .page_link
-{
-      background: rgb(118,118,118);
-      display: block;
-      width: 50px;
-      height: 50px;
-      margin: 0 0.6rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 50%;
-      font-weight: 700;
-      transition: var(--transition);
-}
-.blog .page_link:nth-child(2)
-{
-      background: #Bd960b;
-}
-.blog .page_link:hover
-{
-      background: #2c2405;
-}
-.blog .row1
-{
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 0.5rem;
-}
+
+
+
+
+
 
 .footer
 {
@@ -219,15 +110,9 @@ list-style: none;
 .btn
 {
       background-color: #Bd960b;
-      padding: 0.3rem;
-      font-size: 12px;
+      padding: 0.6rem;
+      font-size: 20px;
       text-transform: capitalize;
-      text-align: center;
-      margin: auto;
-      margin-top: 20px;
-      margin-left: 60px;
-     
-
     
 }
 .footer_col ul li 
@@ -321,64 +206,35 @@ text-decoration: none;
       grid-gap: 0.5rem; 
     
 }
-.flashcard
-{
-      width: 370px;
-      height: 200px;
-      word-wrap: break-word;
-      margin: 10px;
-      background-color: white;
-      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5 );
-}
-@media(max-width:768px)
-{
-      .header_menu li a
-      {
-            font-size: 15px;
-      } 
-      .title>div h2
-      {
-            top: 157px;
-            left: 300px;
-      }
-      .row1
-      {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-      }
-}
-@media(max-width:425px)
-{
-      .header_menu li a
-      {
-            font-size: 15px;
-      } 
-      .title>div h2
-      {
-            top: 165px;
-            left: 100px;
-      }
-      .row1
-      {
-            display: block;
-      }
-      .header_menu 
-      {
-          margin-right: 0px; 
-          gap: 20px; 
-      }
-      .header_menu li a
-      {
-            font-size: 10px;
-      }
-      .footer_col .social_media 
-      {
-            display: flex;
-      }
-      .header_logo img
-    {
-             height: 30px;
-             width: 25px;
-             padding: 10px 10px;
-     }
-}
+.title {
+      grid-column-start: 1;
+      grid-column-end: 3;
+  }
+  
+  .title {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+  
+  
+  .header0 {
+      width: 50%;
+  }
+  
+  .header > h3 {
+      font-size: 3em;
+  }
+  
+  .header > h3 > span {
+      color: #EB00FF;
+      padding-bottom: 0.2em;
+      border-bottom:0.2em solid #EB00FF;
+      letter-spacing: 0.2em;
+  }
+  
+  
+  .header p {
+      font-size: 2em;
+      padding-top: 2em;
+  }
