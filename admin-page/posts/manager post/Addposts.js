@@ -2,9 +2,6 @@
  const addPost = document.querySelector("#studentForm")
  const textL = document.querySelector("#detail")
  
-  document.querySelector("#img").addEventListener("change",function(){
-  const reader = new FileReader();
-})
  addPost.addEventListener("submit", (e) => {
      e.preventDefault()
    fetch(`https://smsj-mentestapi.herokuapp.com/api/posts`, {
@@ -18,7 +15,6 @@
      body: JSON.stringify({
        title:  addPost.title.value,
        body: textL.value,
-       img:reader.value,
        date: "1/1/2022"
       })
    })
