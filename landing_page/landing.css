@@ -622,10 +622,10 @@ list-style: none;
 {
       label #btn
       {
-            display: bloc;
+            display: block;
       }
       
-      {
+      /* {
             position: fixed;
             width: 100%;
             background: #34495e;
@@ -638,7 +638,7 @@ list-style: none;
       {
             display: block;
             margin: 5px;
-      }
+      } */
 
       header,
       section
@@ -712,5 +712,12 @@ list-style: none;
       .skills
       {
             padding-bottom: 130px;
+      }
+}
+@media(max-width:2560px)
+{
+      .main_content img
+      {
+            height: 362px;
       }
 }
