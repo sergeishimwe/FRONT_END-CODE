@@ -65,14 +65,14 @@ list-style: none;
       align-items: center;
       position: relative;
 }
-.title>div h2
+/* .title>div h2
 {
 
       position: absolute;
       top: 150px;
       left: 550px;
-}
-.title >div h2{
+} */
+.title h2{
       color: rgb(211, 174, 174);
       text-transform: capitalize;
 }
@@ -87,13 +87,13 @@ list-style: none;
 {
       margin: 1rem 2rem;
       padding: 1.5rem;
-      background: rgb(118,118,118);
+      background: #fff;
       border-radius: 15px;
       overflow: hidden;
 }
 .blog .item .item_img
 {
-      border-bottom: 8px solid #Bd960b;
+      /* border-bottom: 8px solid #Bd960b; */
       overflow: hidden;
       max-width: 100%;
       max-height: 100;
@@ -124,8 +124,11 @@ list-style: none;
 .blog .item .item-content h2
 {
       font-weight: 600;
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       margin-bottom: 1rem;
+      margin-top: 2.5rem;
+      text-transform: uppercase;
+      color: #fb8500;
 }
 .blog .pagination
 {
@@ -216,9 +219,15 @@ list-style: none;
 .btn
 {
       background-color: #Bd960b;
-      padding: 0.6rem;
-      font-size: 20px;
+      padding: 0.3rem;
+      font-size: 12px;
       text-transform: capitalize;
+      text-align: center;
+      margin: auto;
+      margin-top: 20px;
+      margin-left: 60px;
+     
+
     
 }
 .footer_col ul li 
